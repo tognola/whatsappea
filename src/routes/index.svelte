@@ -33,13 +33,13 @@
 		flex-direction: column;
 		background: rgb(67, 56, 255);
 		background: linear-gradient(0deg, rgba(67, 56, 255, 1) 0%, rgba(28, 247, 206, 1) 100%);
-		font-family: sans-serif;
+		font-family: 'Bebas Neue', sans-serif;
 	}
 
 	h1 {
 		color: white;
 		position: relative;
-		margin-bottom: 1em;
+		margin-bottom: 0.3em;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
 	}
 
