@@ -1,10 +1,15 @@
 <script>
+    let isShowing = false;
+    
+    function closeMenu(){
+        isShowing = false;
+    }
 </script>
 
 <nav>
 	<label for="menu-btn" class="menu"><span class="menu-icon" /></label>
-	<input type="checkbox" class="hide" id="menu-btn" />
-	<ul>
+	<input type="checkbox" class="hide" id="menu-btn" bind:checked={isShowing} />
+	<ul on:click={closeMenu}>
 		<li><a href="/">Inicio</a></li>
 		<li><a href="/how_to">¿Cómo usar?</a></li>
 		<li><a href="/about">Sobre nosotros</a></li>
