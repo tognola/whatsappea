@@ -2,7 +2,7 @@
 </script>
 
 <nav>
-	<label for="menu-btn" class="menu">☰</label>
+	<label for="menu-btn" class="menu"><span class="menu-icon" /></label>
 	<input type="checkbox" class="hide" id="menu-btn" />
 	<ul>
 		<li><a href="/">Inicio</a></li>
@@ -48,6 +48,12 @@
 		right: 0.5em;
 		top: 0.5em;
 		display: none;
+		filter: tra;
+	}
+
+	.menu-icon::before {
+		content: url('/menu_icon.svg');
+		filter: opacity(75%);
 	}
 
 	.hide {
@@ -57,7 +63,7 @@
 	@media screen and (max-width: 640px) {
 		.menu {
 			display: block;
-            cursor: pointer,
+			cursor: pointer;
 		}
 
 		ul {
@@ -68,7 +74,7 @@
 			position: fixed;
 			top: 60px;
 			left: 1em;
-            right: 1em;
+			right: 1em;
 			background: rgba(99, 98, 98, 0.449);
 			border-radius: 5px;
 			border: 1px solid rgba(99, 98, 98, 1);
