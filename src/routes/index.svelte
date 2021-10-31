@@ -18,8 +18,6 @@
 
 	<Form on:whatsapp={send} />
 
-	<hr />
-
     <p>
         Envía WhatsApp sin agendar, sólo escribe el número de teléfono y haz click en enviar!
     </p>
