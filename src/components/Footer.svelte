@@ -53,6 +53,8 @@
 	.twitter::before {
 		content: url('/twitter.png');
 		display: inline-block;
+		width: 24px;
+		height: 24px;
 	}
 
 	.whatsapp::before {
