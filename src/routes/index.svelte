@@ -20,7 +20,7 @@
 	<Form on:whatsapp={send} />
 
     <p>
-        Envía WhatsApp sin agendar, sólo escribe el número de teléfono y haz click en enviar!
+        Envía WhatsApp sin agendar, sólo escribe el número de teléfono y haz click en "iniciar chat"!
     </p>
 
 
@@ -31,10 +31,13 @@
 		position: relative;
 		margin-bottom: 0.3em;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        font-size: 4em;
 	}
 
     p{
+        text-align: center;
         margin: 2em;
         color: white;
+        font-size: 1.4em
     }
 </style>

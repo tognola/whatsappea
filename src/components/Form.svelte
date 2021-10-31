@@ -44,7 +44,7 @@
 		bind:value={numero}
 		placeholder="Número de teléfono (Sin 0 y sin 15)"
 	/>
-	<button type="submit" on:click={sendWhatsApp}>Enviar</button>
+	<button type="submit" on:click={sendWhatsApp}>Iniciar chat</button>
 	<!-- button on:click={saveContact}> Guardar</button -->
 </form>
 

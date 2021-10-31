@@ -7,7 +7,7 @@
 </h2>
 
 <p>
-    Sólo tenes que ingresar el número al que querés enviar un mensaje por WhatsApp y hacer click en enviar. Esto abrirá Whatsapp en un chat con ese número, por lo que podrás comenzar a chatear sin necesidad de agendarlo.
+    Sólo tenes que ingresar el número al que querés enviar un mensaje por WhatsApp y hacer click en "Iniciar chat". Esto abrirá Whatsapp en un chat con ese número, por lo que podrás comenzar a chatear sin necesidad de agendarlo.
 </p>
 
 <p>
