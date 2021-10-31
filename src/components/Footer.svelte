@@ -37,7 +37,9 @@
 	}
 
 	span {
+		display: inline-block;
 		filter: drop-shadow(1px 1px 1px #000000);
+		transform: scale(0.5);
 	}
 	
 
@@ -51,8 +53,6 @@
 	.twitter::before {
 		content: url('/twitter.png');
 		display: inline-block;
-		width: 24px;
-		height: 24px;
 	}
 
 	.whatsapp::before {
