@@ -60,9 +60,9 @@
 		align-items: center;
 	}
 	.input {
-		padding: 0.5em;
+		padding: 1em 0.5em;
 		border-radius: 0.5em;
-		margin: 0 0.5em;
+		margin: 0.25em 0.5em;
 		border: 0;
 	}
 
@@ -77,7 +77,7 @@
 	button {
         border: 0;
         border-radius: 0.5em;
-		padding: 0.5em;
+		padding: 1em 0.5em;
 		margin: 1em 0.5em;
 		flex-grow: 1;
         background: #e2e2e2;

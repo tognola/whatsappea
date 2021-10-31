@@ -1,5 +1,6 @@
 <script>
     import NavBar from '../components/NavBar.svelte';
+    import Footer from '../components/Footer.svelte';
 
 </script>
 
@@ -7,6 +8,8 @@
     <NavBar></NavBar>
 
     <slot class="content"/>
+
+	<Footer></Footer>
 </main>
 
 <style>

@@ -20,7 +20,7 @@
 	nav {
 		position: fixed;
 		top: 0;
-		left: 1em;
+		right: 1em;
 		z-index: 1;
 	}
 
