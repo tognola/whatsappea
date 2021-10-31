@@ -42,21 +42,21 @@
 	
 
 	.facebook::before {
-		content: url('/facebook.svg');
+		content: url('/facebook.png');
 		display: inline-block;
 		width: 24px;
 		height: 24px;
 	}
 
 	.twitter::before {
-		content: url('/twitter.svg');
+		content: url('/twitter.png');
 		display: inline-block;
 		width: 24px;
 		height: 24px;
 	}
 
 	.whatsapp::before {
-		content: url('/whatsapp.svg');
+		content: url('/whatsapp.png');
 		display: inline-block;
 		width: 24px;
 		height: 24px;
