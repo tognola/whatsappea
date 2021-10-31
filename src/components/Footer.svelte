@@ -36,6 +36,9 @@
 		width: 30vw;
 	}
 
+	span {
+		filter: drop-shadow(1px 1px 1px #000000);
+	}
 	
 
 	.facebook::before {
