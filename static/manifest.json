@@ -1,0 +1,37 @@
+{
+    "short_name": "WHATSAPPEA",
+    "name": "WHATSAPPEA",
+    "description": "Enviar mensajes por whatsapp sin agendar",
+    "icons": [
+      {
+        "src": "/favicon_96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon_48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon_32.png",
+        "type": "image/png",
+        "sizes": "32x32",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#1CFFCE",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#1CFFCE",
+    "orientation": "portrait"
+  }
