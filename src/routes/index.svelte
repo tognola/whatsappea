@@ -1,5 +1,6 @@
 <script>
 	import Form from '../components/Form.svelte';
+
 	const url = 'https://api.whatsapp.com/send?phone=';
 
 	function send(e) {
@@ -13,7 +14,7 @@
 	<title>WhatsappeA</title>
 </svelte:head>
 
-<main>
+
 	<h1>WhatsappeÁ</h1>
 
 	<Form on:whatsapp={send} />
@@ -21,20 +22,9 @@
     <p>
         Envía WhatsApp sin agendar, sólo escribe el número de teléfono y haz click en enviar!
     </p>
-</main>
+
 
 <style>
-	main {
-		display: flex;
-		width: 100vw;
-		height: 100vh;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		background: rgb(67, 56, 255);
-		background: linear-gradient(0deg, rgba(67, 56, 255, 1) 0%, rgba(28, 247, 206, 1) 100%);
-		font-family: 'Bebas Neue', sans-serif;
-	}
 
 	h1 {
 		color: white;

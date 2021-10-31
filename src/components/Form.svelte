@@ -36,6 +36,7 @@
 		<option value="+55">BRA (+55)</option>
 		<option value="+569">CHI (+56)</option>
 		<option value="+579">COL (+57)</option>
+        <option value="+">OTRO (+)</option>
 	</select>
 	<input
 		class="input"
@@ -74,8 +75,17 @@
 	}
 
 	button {
+        border: 0;
+        border-radius: 0.5em;
 		padding: 0.5em;
 		margin: 1em 0.5em;
 		flex-grow: 1;
+        background: #e2e2e2;
+        
 	}
+
+    button:hover{
+        background: #bdbbbb;
+        cursor: pointer;
+    }
 </style>
