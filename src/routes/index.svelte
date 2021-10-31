@@ -29,6 +29,7 @@
 	h1 {
 		color: white;
 		position: relative;
+        z-index: 0;
 		margin-bottom: 0.3em;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
         font-size: 4em;

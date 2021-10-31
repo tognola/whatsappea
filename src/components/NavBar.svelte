@@ -21,6 +21,7 @@
 		position: fixed;
 		top: 0;
 		left: 1em;
+		z-index: 1;
 	}
 
 	ul {
@@ -73,14 +74,13 @@
 
 		ul {
 			display: none;
-			background: black;
 			flex-direction: column;
 			align-items: center;
 			position: fixed;
 			top: 60px;
 			left: 1em;
 			right: 1em;
-			background: rgba(99, 98, 98, 0.449);
+			background: rgba(30, 30, 30, 0.95);
 			border-radius: 5px;
 			border: 1px solid rgba(99, 98, 98, 1);
 		}

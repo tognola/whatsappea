@@ -6,10 +6,12 @@
 <main>
     <NavBar></NavBar>
 
-    <slot />
+    <slot class="content"/>
 </main>
 
 <style>
+
+
 	main {
 		display: flex;
 		width: 100vw;
