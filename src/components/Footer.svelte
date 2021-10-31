@@ -9,7 +9,12 @@
 
 <div>
 	Compartir:
-	<!-- span class="instagram" / -->
+	<!-- span class="instagram" / .instagram::before {
+		content: url('/instagram.svg');
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+	}-->
 	<a href={fb_url} target="_blank"><span class="facebook" /></a>
 	<a href={twitter_url} target="_blank"><span class="twitter" /></a>
 
@@ -31,12 +36,7 @@
 		width: 30vw;
 	}
 
-	.instagram::before {
-		content: url('/instagram.svg');
-		display: inline-block;
-		width: 24px;
-		height: 24px;
-	}
+	
 
 	.facebook::before {
 		content: url('/facebook.svg');
