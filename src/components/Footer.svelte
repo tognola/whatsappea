@@ -1,7 +1,7 @@
 <script>
 	import MediaQuery from './MediaQuery.svelte';
 
-	const ig_url = 'https://instagram.com/wsappea'
+	const ig_url = 'https://instagram.com/wasappea'
 	const fb_url = 'https://www.facebook.com/sharer/sharer.php?u=https%3A//whatsappea.vercel.app';
 	const twitter_url =
 		'https://twitter.com/intent/tweet?text=Env%C3%ADa%20mensajes%20por%20whatsapp%20sin%20agendar%20el%20contacto,%20ingres%C3%A1%20en%3A%20https%3A//whatsappea.vercel.app';
@@ -10,15 +10,15 @@
 
 <div>
 	Compartir:
-	<a href={fb_url} target="_blank"><span class="facebook" /></a>
-	<a href={twitter_url} target="_blank"><span class="twitter" /></a>
+	<a rel="external" href={fb_url} target="_blank"><span class="facebook" /></a>
+	<a rel="external" href={twitter_url} target="_blank"><span class="twitter" /></a>
 
 	<MediaQuery query="(max-width: 640px)" let:matches>
 		{#if matches}
-			<a href={wp_url} data-action="share/whatsapp/share"><span class="whatsapp"></span></a>
+			<a rel="external" href={wp_url} data-action="share/whatsapp/share"><span class="whatsapp"></span></a>
 		{/if}
 	</MediaQuery>
-	<a href={ig_url}><span class="instagram"></span></a>
+	<a rel="external" href={ig_url}><span class="instagram"></span></a>
 
 </div>
 
