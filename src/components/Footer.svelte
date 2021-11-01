@@ -1,6 +1,7 @@
 <script>
 	import MediaQuery from './MediaQuery.svelte';
 
+	const ig_url = 'https://instagram.com/wsappea'
 	const fb_url = 'https://www.facebook.com/sharer/sharer.php?u=https%3A//whatsappea.vercel.app';
 	const twitter_url =
 		'https://twitter.com/intent/tweet?text=Env%C3%ADa%20mensajes%20por%20whatsapp%20sin%20agendar%20el%20contacto,%20ingres%C3%A1%20en%3A%20https%3A//whatsappea.vercel.app';
@@ -9,12 +10,6 @@
 
 <div>
 	Compartir:
-	<!-- span class="instagram" / .instagram::before {
-		content: url('/instagram.svg');
-		display: inline-block;
-		width: 24px;
-		height: 24px;
-	}-->
 	<a href={fb_url} target="_blank"><span class="facebook" /></a>
 	<a href={twitter_url} target="_blank"><span class="twitter" /></a>
 
@@ -23,6 +18,8 @@
 			<a href={wp_url} data-action="share/whatsapp/share"><span class="whatsapp"></span></a>
 		{/if}
 	</MediaQuery>
+	<a href={ig_url}><span class="instagram"></span></a>
+
 </div>
 
 <style>
@@ -42,6 +39,12 @@
 		transform: scale(0.5);
 	}
 	
+	.instagram::before {
+		content: url('/instagram.png');
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+	}
 
 	.facebook::before {
 		content: url('/facebook.png');
