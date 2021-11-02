@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>WassappeÁ</title>
+	<title>WasappeÁ</title>
 </svelte:head>
 
 
