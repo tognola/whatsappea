@@ -36,6 +36,9 @@
 		<option value="+55">BRA (+55)</option>
 		<option value="+569">CHI (+56)</option>
 		<option value="+579">COL (+57)</option>
+		<option value="+34">ESP (+34)</option>
+		<option value="+595">PAR (+595)</option>
+		<option value="+598">URU (+598)</option>
         <option value="+">OTRO (+)</option>
 	</select>
 	<input
