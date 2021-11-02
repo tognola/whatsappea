@@ -11,11 +11,11 @@
 </script>
 
 <svelte:head>
-	<title>WhatsappeA</title>
+	<title>WassappeÁ</title>
 </svelte:head>
 
 
-	<h1>WhatsappeÁ</h1>
+	<h1>WasappeÁ</h1>
 
 	<Form on:whatsapp={send} />
 
