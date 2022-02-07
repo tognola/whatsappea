@@ -1,6 +1,7 @@
 <script>
 	import { createEventDispatcher } from 'svelte';
 	import { onMount } from 'svelte';
+import Modal from './Modal.svelte';
 
 	const dispatch = createEventDispatcher();
     let caracteristica;
@@ -14,10 +15,19 @@
 	
 	let numero;
 	let showName = false;
+	let error  = false;
 
 	function sendWhatsApp(e) {
 		e.preventDefault();
-		dispatch('whatsapp', { caracteristica, numero });
+		if(numero){
+			dispatch('whatsapp', { caracteristica, numero });
+		} else {
+			error = true;
+
+			setTimeout( () => {
+				error = false;
+			}, 3000)
+		}
 	}
 
 	function saveContact(e) {
@@ -34,8 +44,8 @@
 	<select class="input" name="" id="" bind:value={caracteristica} on:change={saveOption}>
 		<option value="+549">ARG (+54)</option>
 		<option value="+55">BRA (+55)</option>
-		<option value="+569">CHI (+56)</option>
-		<option value="+579">COL (+57)</option>
+		<option value="+56">CHI (+56)</option>
+		<option value="+57">COL (+57)</option>
 		<option value="+34">ESP (+34)</option>
 		<option value="+595">PAR (+595)</option>
 		<option value="+598">URU (+598)</option>
@@ -53,6 +63,10 @@
 
 {#if showName}
 	<input type="text" />
+{/if}
+
+{#if error}
+	<Modal></Modal>
 {/if}
 
 <style>

@@ -5,7 +5,9 @@
 
 	function send(e) {
 		let { caracteristica, numero } = e.detail;
-		console.log(caracteristica + numero);
+		if(!numero){
+			alert("Ingresa un número sin letras ni espacios.")
+		}
 		window.open(url + caracteristica + numero, '_blank').focus();
 	}
 </script>
