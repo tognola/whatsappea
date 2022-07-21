@@ -1,7 +1,7 @@
 <script>
 	import Form from '../components/Form.svelte';
 
-	const url = 'https://api.whatsapp.com/send?phone=';
+	const url = 'https://wa.me/';
 
 	function send(e) {
 		let { caracteristica, numero } = e.detail;
