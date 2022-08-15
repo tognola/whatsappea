@@ -5,7 +5,7 @@
 	const fb_url = 'https://www.facebook.com/sharer/sharer.php?u=https%3A//whatsappea.vercel.app';
 	const twitter_url =
 		'https://twitter.com/intent/tweet?text=Env%C3%ADa%20mensajes%20por%20whatsapp%20sin%20agendar%20el%20contacto,%20ingres%C3%A1%20en%3A%20https%3A//whatsappea.vercel.app';
-    const wp_url ='whatsapp://send?text=Enviá mensajes por WhatsApp sin agendar el contacto! https://whatsappea.vercel.app/';
+    const wp_url ='whatsapp://send?text=Iniciá un chat por WhatsApp sin agendar el contacto! https://wasappea.com/';
 </script>
 
 <div>
