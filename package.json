@@ -1,6 +1,7 @@
 {
   "name": "whatsappea",
   "version": "0.0.1",
+  "license": "",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
