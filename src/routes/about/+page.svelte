@@ -2,9 +2,9 @@
 
 </script>
 
-<svelte:head>
+<sveltekit:head>
 	<title>Sobre nosotros - WasappeÁ</title>
-</svelte:head>
+</sveltekit:head>
 
 <h2>
     Sobre nosotros

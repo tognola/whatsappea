@@ -2,9 +2,9 @@
 
 </script>
 
-<svelte:head>
+<sveltekit:head>
 	<title>¿Cómo usarlo? - WasappeÁ</title>
-</svelte:head>
+</sveltekit:head>
 
 <h2>
     ¿Cómo usar?

@@ -1,0 +1,31 @@
+{
+    "short_name": "WassapeA",
+    "name": "WasappeA",
+    "description": "Enviar mensajes por whatsapp sin agendar",
+    "icons": [
+      {
+        "src": "/favicon_192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/favicon_512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#1CFFCE",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#1CFFCE",
+    "orientation": "portrait"
+  }
