@@ -2,6 +2,10 @@
 
 </script>
 
+<svelte:head>
+	<title>¿Cómo usarlo? - WasappeÁ</title>
+</svelte:head>
+
 <h2>
     ¿Cómo usar?
 </h2>

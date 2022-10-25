@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>WasappeÁ</title>
+	<title>Enviar whatsapp sin guardar contacto - WasappeÁ</title>
 </svelte:head>
 
 
