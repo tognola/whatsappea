@@ -12,9 +12,9 @@
 	}
 </script>
 
-<sveltekit:head>
+<svelte:head>
 	<title>Enviar whatsapp sin guardar contacto - WasappeÁ</title>
-</sveltekit:head>
+</svelte:head>
 
 
 	<h1>WasappeÁ</h1>
